@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="LogIn.css">
+</head>
+<body>
+    <main class="login-container">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8a6b5db73a3734765101a4888a95b7dcfa2f1410eb44930cdea727e96f3d94ae?placeholderIfAbsent=true&apiKey=406b35fd215643d98aa471607a81b3c4" alt="Background image" class="background-image">
+        <section class="overlay">
+            <form class="login-form">
+                <div class="form-content">
+                    <h1 class="brand-name">Bentahan</h1>
+                    <h2 class="login-title">User Log In</h2>
+                    <label for="username" class="visually-hidden">Username</label>
+                    <input type="text" id="username" class="input-field" placeholder="Username" aria-label="Username">
+                    <p class="error-message" id="username-error" aria-live="polite">*Invalid username</p>
+                    <label for="password" class="visually-hidden">Password</label>
+                    <input type="password" id="password" class="input-field" placeholder="Password" aria-label="Password">
+                    <p class="error-message" id="password-error" aria-live="polite">*Incorrect password</p>
+                    <button type="submit" class="login-button">Log In</button>
+                    <p class="signup-prompt">Don't have an account?</p>
+                </div>
+                <button type="button" class="back-button">Back</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

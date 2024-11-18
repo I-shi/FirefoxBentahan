@@ -1,0 +1,25 @@
+.image-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.responsive-image {
+    aspect-ratio: 0.96;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 30px;
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .image-container {
+        padding: 10px;
+    }
+
+    .responsive-image {
+        border-radius: 15px;
+    }
+}
